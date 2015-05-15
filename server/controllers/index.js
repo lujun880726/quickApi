@@ -7,9 +7,9 @@ indexCrontroller.checkLoginFlag = false;
 
 indexCrontroller.indexAction = function()
 {
-	console.log(globalInfo.Port);
+	
 	//console.log(base.abc);
-	indexCrontroller.setResponseData(111111,1232,12312);
+	indexCrontroller.setResponseData(1,'成功',{ab:1,bc:2,c:3,d:{a:1}});
 };
 
 

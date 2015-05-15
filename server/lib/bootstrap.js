@@ -56,7 +56,7 @@ exports.run = function(req, res)
 					
 					controllerClass[funName]();
 					
-					controllerClass.beforeAction();
+					controllerClass.afterAction();
 
 				}
 				

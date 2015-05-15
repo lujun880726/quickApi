@@ -1,5 +1,3 @@
-fun = {};
-
 exports.getLocalIP = function () {
     var tmpIP = '';
     var ifaces=require('os').networkInterfaces();  

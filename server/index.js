@@ -18,7 +18,7 @@ if (cluster.isMaster) {
     }
 
     cluster.on('listening', function (worker, address) {
-        console.log('[master] ' + 'listening: worker' + worker.id + ',pid:' + worker.process.pid + ', Address:' + address.address + ":" + address.port);
+         console.log('[master] ' + 'listening: worker' + worker.id + ',pid:' + worker.process.pid + ', Address:' + fun.getLocalIP() + "");
     });
 
 } else if (cluster.isWorker) {
